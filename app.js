@@ -35,4 +35,12 @@ if (coding.toUpperCase() === 'NO' || coding.toUpperCase() === 'N') {
     alert('Definitely not.')
   }
   console.log('Information about how long I have been coding.');
-});
+
+  var education = prompt('Did I study primatology in college?');
+  if (education.toUpperCase() === 'YES' || education.toUpperCase() === 'Y'){
+    alert('I love primates!');
+  }
+    else if (education.toUpperCase() === 'NO' || education.toUpperCase() === 'N') {
+      alert('I did! I love primates.')
+    }
+    console.log('Information regarding a fun topic of study.');
