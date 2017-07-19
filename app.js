@@ -9,7 +9,7 @@ if (hobbies.toUpperCase() === 'YES' || hobbies.toUpperCase() === 'Y'){
   alert('You got it!');
   answersCorrect++;
 }
- else if (hobbies.toUpperCase() === 'NO' || hobbies.toUpperCase() === 'N'){
+ else {
  alert('Nope.');
 }
 console.log ('Answer to my favorite hobby is YES. I enjoy hiking.');
@@ -24,7 +24,7 @@ if (favoriteFood.toLowerCase() === 'no' || favoriteFood.toLowerCase() === 'n') {
   alert('You know me well!');
   answersCorrect++;
 }
-  else if (favoriteFood.toLowerCase() === 'yes' || favoriteFood.toLowerCase() === 'y'){
+  else {
     alert('Nah, I do not like mushrooms!');
 }
 console.log('I am not a fan of Chicken Marsala.  My favorite is sushi.');
@@ -39,7 +39,7 @@ if (childhood.toLowerCase() === 'yes' || childhood.toLowerCase() === 'y'){
   alert('It was so painful!');
   answersCorrect++;
 }
-  else if (childhood.toLowerCase() === 'no' || childhood.toLowerCase() === 'n') {
+  else  {
     alert('I was not always the best on a bike.');
 }
 console.log('I broke my elbow when I was learning how to ride a bike');
@@ -54,7 +54,7 @@ if (coding.toUpperCase() === 'NO' || coding.toUpperCase() === 'N') {
   alert('That is correct! I have only been coding for 6 months.');
   answersCorrect++;
 }
-  else if (coding.toUpperCase() === 'YES' || coding.toUpperCase() === 'Y') {
+  else  {
     alert('Definitely not.')
   }
   console.log('Information about how long I have been coding.');
@@ -69,7 +69,7 @@ function questionFive() {
     alert('I love primates!');
     answersCorrect++;
   }
-    else if (education.toUpperCase() === 'NO' || education.toUpperCase() === 'N') {
+    else {
       alert('I did! I love primates.')
     }
     console.log('Information regarding a fun topic of study.');
@@ -108,7 +108,6 @@ questionSix();
 function questionSeven() {
   var numTries = 6;
   var pets = ['dog', 'goldfish', 'hamster'];
-  var arrayLength = 3;
 
   while(numTries > 0 ) {
     numTries--;
